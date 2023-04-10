@@ -11,7 +11,7 @@ const Header = () => {
                     <div>
                         <Link to={'/'}>
                             <div className='inline-flex items-center'>
-                            <IdentificationIcon className='w-10 h-6 text-black'></IdentificationIcon>
+                            <IdentificationIcon className='w-10 h-6 text-cyan-400'></IdentificationIcon>
                             <span className='font-bold text-xl'>Job Hunter</span>
                             </div>
                         </Link>
