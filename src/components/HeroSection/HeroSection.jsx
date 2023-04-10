@@ -15,7 +15,7 @@ const HeroSection = () => {
                         <p className='my-5 text-gray-500'>We want impact, purpose and to contribute to a better world. However, building a purposeful career is not always an easy process to navigate. Here are some tips to get you started.</p>
                         <button className='px-4 py-3 bg-cyan-400 rounded-lg text-white font-bold hover:bg-cyan-600'>Get Started</button>
                     </div>
-                    {/* Image Section */}
+                    {/* Hero Animation Section */}
                     <div>
                         <div>
                             <Lottie animationData={heroAnimation} loop={true} />
