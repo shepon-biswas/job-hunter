@@ -1,10 +1,16 @@
-import React from 'react';
-import accounting from '../../assets/icons/accounting.png';
-import business from '../../assets/icons/business.png';
-import chip from '../../assets/icons/chip.png';
-import innovation from '../../assets/icons/innovation.png';
+import React, { useEffect, useState } from 'react';
 
 const JobCategory = () => {
+    const [jobCategory, SetJobCategory] = useState([]);
+
+    useEffect(()=>{
+        fetch('jobCategory.json')
+        .then(res => res.json())
+        .then(data => SetJobCategory(data))
+    },[])
+
+
+
     return (
         <>
             <div className='w-11/12 md:w-8/12 mx-auto mt-20'>
@@ -17,26 +23,16 @@ const JobCategory = () => {
                 </div>
                 {/* Category Grid Section */}
                 <div className='w-full mx-auto grid md:grid-cols-4 gap-5 my-20 '>
-                    <div className='text-center md:text-left border border-cyan-400 rounded-lg py-10 px-6 bg-cyan-50'>
-                        <img className='w-18 mx-auto md:ms-0' src={chip} alt="chip-image" />
-                        <h3 className='text-gray-600 text-xl font-bold my-2'>Engineering</h3>
-                        <p className='text-gray-500'>300+ Jobs Available</p>
-                    </div>
-                    <div className='text-center md:text-left border border-cyan-400 rounded-lg py-10 px-6 bg-cyan-50'>
-                        <img className='w-18 mx-auto md:ms-0' src={innovation} alt="innovation-image" />
-                        <h3 className='text-gray-600 text-xl font-bold my-2'>Creative Design</h3>
-                        <p className='text-gray-500'>200+ Jobs Available</p>
-                    </div>
-                    <div className=' text-center md:text-left border border-cyan-400 rounded-lg py-10 px-6 bg-cyan-50'>
-                        <img className='w-18 mx-auto md:ms-0' src={accounting} alt="accounting-image" />
-                        <h3 className='text-gray-600 text-xl font-bold my-2'>Account & Finance</h3>
-                        <p className='text-gray-500'>250+ Jobs Available</p>
-                    </div>
-                    <div className=' text-center md:text-left border border-cyan-400 rounded-lg py-10 px-6 bg-cyan-50'>
-                        <img className='w-18 mx-auto md:ms-0' src={business} alt="accounting-image" />
-                        <h3 className='text-gray-600 text-xl font-bold my-2'>Sales & Marketing</h3>
-                        <p className='text-gray-500'>200+ Jobs Available</p>
-                    </div>
+                        {
+                            jobCategory.map(jc =>(    
+                                <div key={jc.id} className='text-center md:text-left border border-cyan-400 rounded-lg py-10 px-6 bg-cyan-50'>
+                                    <img className='w-18 mx-auto md:ms-0' src={jc.category_logo} alt="chip-image" />
+                                    <h5 className='text-gray-600 font-bold my-2'>{jc.category_name}</h5>
+                                    <p className='text-gray-500'>{jc.available_jobs}</p>
+                                </div>
+
+                            ))
+                        }
                 </div>
             </div>
         </>

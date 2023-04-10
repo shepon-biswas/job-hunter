@@ -1,0 +1,134 @@
+[
+  {
+    "id": 1,
+    "job_title": "Software Engineer",
+    "job_desc": "We are looking for a passionate Software Engineer to design, develop and install software solutions.Software Engineer responsibilities include gathering user requirements, defining system functionality and writing code in various languages, like Java, Ruby on Rails or .NET programming languages (e.g. C++ or JScript.NET.) Our ideal candidates are familiar with the software development life cycle (SDLC) from preliminary system analysis to tests and deployment.Ultimately, the role of the Software Engineer is to build high-quality, innovative and fully performing software that complies with coding standards and technical design.",
+    "job_res": "Execute full software development life cycle (SDLC) Develop flowcharts, layouts and documentation to identify requirements and solutions Write well-designed, testable code Produce specifications and determine operational feasibility Integrate software components into a fully functional software system Develop software verification plans and quality assurance procedures Document and maintain software functionality Troubleshoot, debug and upgrade existing systems Deploy programs and evaluate user feedback Comply with project plans and industry standards Ensure software is updated with latest features",
+    "educational_bg": "Bechelor Degree is minimum required",
+    "experience": "2-3 Years in this field.",
+    "company_name": "Google LLC",
+    "company_logo": "https://i.ibb.co/HptvMdW/GOOGLE.png",
+    "job_type": "Remote",
+    "job_hour": "Full Time",
+    "job_location": "36/B, Berlin, Germany",
+    "salary": "100K-150K",
+    "contact": [
+      {
+        "mobile": 25621456
+      },
+      {
+        "email": "contact@jobs.google.com"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "job_title": "Jr. Product Engineer",
+    "job_desc": "We are looking for a Product Engineer to work on various products we develop for our customers.  Product Designer responsibilities include defining product specifications, creating digital or print drawings and designing fully-functional products. To be successful in this role, you should have an eye for color and shape and be able to translate requirements into practical product features.  Ultimately, you will help us build products that are easy to use and visually appealing to our potential customers.",
+    "job_res": "Identify opportunities for new products Analyze how a new product ties in with market needs and consumer preferences Set design requirements based on briefs from internal teams and external partners Research materials and techniques Sketch drafts on paper or digitally (for example, using CAD) Use 3D modeling software to design products and components Produce prototypes and test functionality Improve the design of existing products Gather feedback from product users",
+    "educational_bg": "Bechelor Degree is minimum required",
+    "experience": "2-3 Years in this field.",
+    "company_name": "Netflix",
+    "company_logo": "https://i.ibb.co/68FxqDw/NETFLIX.png",
+    "job_type": "Onsite",
+    "job_hour": "Full Time",
+    "job_location": "San Diego, California.",
+    "salary": "90K-120K",
+    "contact": [
+      {
+        "mobile": 256000056
+      },
+      {
+        "email": "contact@join.netflix.com"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "job_title": "Technical Analysist",
+    "job_desc": "We are currently seeking a Technical Analyst to join our growing team! As a Technical Analyst, you will have the opportunity to work on a collaborative team of engineers in one of the most exciting fields in technology! The Technical Analysts helps our industrial customers remotely and continuously monitor their factory equipment to prevent unplanned failures and optimize operation to extend machine life. Technology and data analysis provide the backbone for delivering actionable advice to customers, so your ability to learn vibration and other types of machine health analysis is key. Our team will provide you the detailed training you need, but you need to bring the capability and desire to absorb the training and become an expert. Personal interaction is key; we focus on relationship-building and establishing trust with our customers so that they are excited to work with us to improve their plants operation, making their jobs easier and more valuable.",
+    "job_res": "Installs and repairs facility and division equipment and software per Company standards and guidelines, including but not limited to terminals, personal computers, printers, cabling, and related software products Responds to and resolves inquiries and requests for assistance with division or facility computer systems, and provides a superior customer support experience for division and facility users Analyzes and provides hands-on support for moderate to complex inquiries. Determines appropriate technical area or vendor to resolve the problem and coordinates with other technical areas, as needed Logs and tracks problems; reviews problem tracking databases Performs facility-based moves, adds, and changes (MACs), as needed Maintains documentation for each incident or request, and escalates complex problems to the next level of support per documented procedures Provides 24x7 on-call support based on division IT staff rotation, and carries a pager as warranted Aids and trains users on division and facility technology Performs preventative maintenance Effectively works with customers, Service Desk and Technical Services personnel Participates in meetings, committees and continuing education to improve individual, departmental and organizational performance",
+    "educational_bg": "Bechelor Degree is minimum required",
+    "experience": "1-2 Years in this field.",
+    "company_name": "Tesla",
+    "company_logo": "https://i.ibb.co/p2qNpHs/TESLA.png",
+    "job_type": "Onsite",
+    "job_hour": "Full Time",
+    "job_location": "San Francisco, California",
+    "salary": "110K-160K",
+    "contact": [
+      {
+        "mobile": 256999999
+      },
+      {
+        "email": "contact@jobs.tesla.com"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "job_title": "Technical Database Engineer",
+    "job_desc": "We are seeking a results-oriented database engineer to help optimize the performance of our organizations databases. You will be enhancing our data storage capacity, writing new support programs and scripts, and troubleshooting database code.  To ensure success as a database engineer, you should exhibit knowledge of best practices in database management and experience in a similar role. A top-notch database engineer will be someone whose database optimization skills translate into the efficient flow of information throughout an organization.",
+    "job_res": "Maintaining and enhancing the performance of existing database programs. Assisting database development teams in designing new database programs that meet the organizations data storage needs. Monitoring databases and related systems to ensure optimized performance. Writing new support programs and scripts to increase data storage capacity. Reviewing database and user reports, as well as system information. Performing debugging procedures on database scripts and programs, as well as resolving conflicts. Mentoring database administrators and providing them with technical support. Adhering to best practices in securely storing, backing up, and archiving data. Documenting processes related to database design, configuration, and performance. Keeping abreast of developments and best practices in database engineering.",
+    "educational_bg": "Bechelor Degree is minimum required",
+    "experience": "1-2 Years in this field.",
+    "company_name": "Meta",
+    "company_logo": "https://i.ibb.co/4Ffp06z/META.png",
+    "job_type": "Remote",
+    "job_hour": "Full Time",
+    "job_location": "San Diego, California",
+    "salary": "100K-140K",
+    "contact": [
+      {
+        "mobile": 2568080808
+      },
+      {
+        "email": "contact@jobs.meta.com"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "job_title": "Jr. Product Designer",
+    "job_desc": "We are looking for a Product Designer to work on various products we develop for our customers.  Product Designer responsibilities include defining product specifications, creating digital or print drawings and designing fully-functional products. To be successful in this role, you should have an eye for color and shape and be able to translate requirements into practical product features.  Ultimately, you will help us build products that are easy to use and visually appealing to our potential customers.",
+    "job_res": "Identify opportunities for new products Analyze how a new product ties in with market needs and consumer preferences Set design requirements based on briefs from internal teams and external partners Research materials and techniques Sketch drafts on paper or digitally (for example, using CAD) Use 3D modeling software to design products and components Produce prototypes and test functionality Improve the design of existing products Gather feedback from product users",
+    "educational_bg": "Bechelor Degree is minimum required",
+    "experience": "2-3 Years in this field.",
+    "company_name": "Airbnb",
+    "company_logo": "https://i.ibb.co/N3StQrn/AIRBNB.png",
+    "job_type": "Remote",
+    "job_hour": "Full Time",
+    "job_location": "San Francisco, California",
+    "salary": "80K-110K",
+    "contact": [
+      {
+        "mobile": 251122211
+      },
+      {
+        "email": "contact@join.airbnb.com"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "job_title": "Software Engineer",
+    "job_desc": "We are looking for a passionate Software Engineer to design, develop and install software solutions.Software Engineer responsibilities include gathering user requirements, defining system functionality and writing code in various languages, like Java, Ruby on Rails or .NET programming languages (e.g. C++ or JScript.NET.) Our ideal candidates are familiar with the software development life cycle (SDLC) from preliminary system analysis to tests and deployment.Ultimately, the role of the Software Engineer is to build high-quality, innovative and fully performing software that complies with coding standards and technical design.",
+    "job_res": "Execute full software development life cycle (SDLC) Develop flowcharts, layouts and documentation to identify requirements and solutions Write well-designed, testable code Produce specifications and determine operational feasibility Integrate software components into a fully functional software system Develop software verification plans and quality assurance procedures Document and maintain software functionality Troubleshoot, debug and upgrade existing systems Deploy programs and evaluate user feedback Comply with project plans and industry standards Ensure software is updated with latest features",
+    "educational_bg": "Bechelor Degree is minimum required",
+    "experience": "2-3 Years in this field.",
+    "company_name": "LinkedIn",
+    "company_logo": "https://i.ibb.co/C0vW4mG/LINKEDIN.png",
+    "job_type": "Onsite",
+    "job_hour": "Full Time",
+    "job_location": "San Francisco, California",
+    "salary": "120K-180K",
+    "contact": [
+      {
+        "mobile": 256888888
+      },
+      {
+        "email": "contact@linkedin.com"
+      }
+    ]
+  }
+]
