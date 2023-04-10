@@ -12,14 +12,8 @@
     "job_hour": "Full Time",
     "job_location": "36/B, Berlin, Germany",
     "salary": "100K-150K",
-    "contact": [
-      {
-        "mobile": 25621456
-      },
-      {
-        "email": "contact@jobs.google.com"
-      }
-    ]
+    "mobile": "25621456",
+    "email": "contact@jobs.google.com"
   },
   {
     "id": 2,
@@ -34,14 +28,8 @@
     "job_hour": "Full Time",
     "job_location": "San Diego, California.",
     "salary": "90K-120K",
-    "contact": [
-      {
-        "mobile": 256000056
-      },
-      {
-        "email": "contact@join.netflix.com"
-      }
-    ]
+    "mobile": "252222456",
+    "email": "contact@jobs.netflix.com"
   },
   {
     "id": 3,
@@ -56,14 +44,8 @@
     "job_hour": "Full Time",
     "job_location": "San Francisco, California",
     "salary": "110K-160K",
-    "contact": [
-      {
-        "mobile": 256999999
-      },
-      {
-        "email": "contact@jobs.tesla.com"
-      }
-    ]
+    "mobile": "252222456",
+    "email": "contact@join.Tesla.com"
   },
   {
     "id": 4,
@@ -78,14 +60,8 @@
     "job_hour": "Full Time",
     "job_location": "San Diego, California",
     "salary": "100K-140K",
-    "contact": [
-      {
-        "mobile": 2568080808
-      },
-      {
-        "email": "contact@jobs.meta.com"
-      }
-    ]
+    "mobile": "252222456",
+    "email": "contact@join.Meta.com"
   },
   {
     "id": 5,
@@ -100,14 +76,8 @@
     "job_hour": "Full Time",
     "job_location": "San Francisco, California",
     "salary": "80K-110K",
-    "contact": [
-      {
-        "mobile": 251122211
-      },
-      {
-        "email": "contact@join.airbnb.com"
-      }
-    ]
+    "mobile": "252222456",
+    "email": "contact@join.Airbnb.com"
   },
   {
     "id": 6,
@@ -122,13 +92,7 @@
     "job_hour": "Full Time",
     "job_location": "San Francisco, California",
     "salary": "120K-180K",
-    "contact": [
-      {
-        "mobile": 256888888
-      },
-      {
-        "email": "contact@linkedin.com"
-      }
-    ]
+    "mobile": "252222456",
+    "email": "contact@join.Airbnb.com"
   }
 ]

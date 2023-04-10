@@ -1,5 +1,6 @@
 import { CurrencyDollarIcon, MapPinIcon } from '@heroicons/react/24/solid';
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const JobCard = ({jobData}) => {
     console.log(jobData);
@@ -22,7 +23,11 @@ const JobCard = ({jobData}) => {
                 <span>Salary: {jobData.salary}</span>
                 </div>
                 <br />
-                <button className='bg-cyan-400 text-white font-bold px-4 py-3 rounded-lg mt-3'>View Details</button>
+                <Link
+                    to={`job/${jobData.id}`}
+                >
+                    <button className='bg-cyan-400 text-white font-semibold px-4 py-3 rounded-lg mt-3'>View Details</button>
+                </Link>
 
             </div>
         </>

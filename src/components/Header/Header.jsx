@@ -33,7 +33,7 @@ const Header = () => {
                     </div>
                     {/* Header Button */}
                     <div>
-                        <button className='bg-cyan-400 px-5 py-2 rounded text-white font-bold hover:bg-white hover:border hover:border-cyan-400 hover:text-cyan-400
+                        <button className='bg-cyan-400 px-5 py-2 rounded text-white font-semibold hover:bg-white hover:border hover:border-cyan-400 hover:text-cyan-400
                          hidden md:flex'>Apply Now</button>
                     </div>
                 </div>
