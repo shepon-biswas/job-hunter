@@ -1,6 +1,7 @@
 import { CalendarDaysIcon, CurrencyDollarIcon, EnvelopeIcon, MapPinIcon, PhoneIcon } from '@heroicons/react/24/solid';
 import React, { useEffect, useState } from 'react';
 import { Link, useLoaderData, useParams } from 'react-router-dom';
+import { addToDb } from '../../utils/fakedb';
 
 const JobDetails = () => {
     const [jobDetails, SetJobDetails] = useState({});
@@ -16,6 +17,11 @@ const JobDetails = () => {
         }
     },[])
     
+        // handleAppliedJob 
+        const handleAppliedJob = id =>{
+            addToDb(id)
+            // console.log(id);
+        }
     
     return (
         <>
@@ -66,7 +72,10 @@ const JobDetails = () => {
 
                         </div>
                         {/* Apply Now Button */}
-                        <Link to='/appliedjob'>
+                        <Link 
+                            to='/appliedjob'
+                            onClick={()=>handleAppliedJob(jobDetails.id)}
+                        >
                             <button className='bg-cyan-400 px-2 py-3 rounded mt-8 w-full font-semibold text-white'>
                                 Apply Now
                             </button>                        

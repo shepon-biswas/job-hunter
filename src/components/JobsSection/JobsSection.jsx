@@ -14,7 +14,11 @@ const JobsSection = ({jobsData}) => {
                 </div>
                 <div className='grid md:grid-cols-2 gap-10 mb-20'>
                     {
-                        jobsData.map(jobData => <JobCard key = {jobData.id} jobData = {jobData}></JobCard>)
+                        jobsData.map(jobData => <JobCard 
+                            key = {jobData.id} 
+                            jobData = {jobData}
+                            
+                            ></JobCard>)
                     }
                 </div>
 

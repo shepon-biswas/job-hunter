@@ -2,11 +2,13 @@ import React from 'react'
 import ReactDOM from 'react-dom/client'
 import { RouterProvider, createBrowserRouter } from 'react-router-dom'
 import App from './App'
+import AppliedJobs from './components/AppliedJobs/AppliedJobs'
 import Blog from './components/Blog/Blog'
 import Home from './components/Home/Home'
 import JobDetails from './components/JobDetails/JobDetails'
 import Statistics from './components/Statistics/Statistics'
 import './index.css'
+import { savedJobData } from './loaders/jobdata'
 
 const router = createBrowserRouter([
   {
@@ -30,7 +32,8 @@ const router = createBrowserRouter([
       },
       {
         path: 'appliedjob',
-        element: <h1>Applied Job</h1>
+        element: <AppliedJobs></AppliedJobs>,
+        loader: savedJobData
       },
       {
         path: 'blog',

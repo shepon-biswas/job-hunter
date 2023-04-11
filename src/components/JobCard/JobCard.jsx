@@ -3,7 +3,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 const JobCard = ({jobData}) => {
-    console.log(jobData);
+    // console.log(jobData);
     return (
         <>
             <div className='border border-gray-200 rounded-lg p-8 '>
@@ -25,6 +25,7 @@ const JobCard = ({jobData}) => {
                 <br />
                 <Link
                     to={`job/${jobData.id}`}
+                    
                 >
                     <button className='bg-cyan-400 text-white font-semibold px-4 py-3 rounded-lg mt-3'>View Details</button>
                 </Link>
