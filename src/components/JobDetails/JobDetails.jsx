@@ -17,11 +17,10 @@ const JobDetails = () => {
         }
     },[])
     
-        // handleAppliedJob 
-        const handleAppliedJob = id =>{
-            addToDb(id)
-            // console.log(id);
-        }
+    // handleAppliedJob 
+    const handleAppliedJob = id =>{
+        addToDb(id)
+    }
     
     return (
         <>

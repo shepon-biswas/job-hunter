@@ -1,8 +1,13 @@
-import React from 'react';
+import React, { useState } from 'react';
 import JobCard from '../JobCard/JobCard';
 
 const JobsSection = ({jobsData}) => {
-    // console.log(jobsData);
+    const [seeall, SetseeAll] = useState(false);
+
+    // Handle See All Button
+    const handleSeeAll = ()=>{
+        SetseeAll(true);
+    }
 
     return (
         <>
@@ -12,16 +17,25 @@ const JobsSection = ({jobsData}) => {
                     <h1 className='text-4xl font-bold'>Featured Jobs</h1>
                     <p className='text-gray-500 my-5'>All the featured jobs are listed below.</p>
                 </div>
-                <div className='grid md:grid-cols-2 gap-10 mb-20'>
+                <div className='grid md:grid-cols-2 gap-10 mb-10'>
                     {
-                        jobsData.map(jobData => <JobCard 
+                        jobsData.slice(0, seeall ? 6 : 4).map(jobData => 
+                        <JobCard 
                             key = {jobData.id} 
-                            jobData = {jobData}
-                            
-                            ></JobCard>)
+                            jobData = {jobData}     
+                        ></JobCard>)
                     }
                 </div>
-
+                {/* See All Button */}
+                {
+                    !seeall&&(
+                        <div className='flex justify-center'>
+                            <button 
+                            onClick={handleSeeAll}
+                            className='text-center bg-cyan-400 hover:bg-cyan-600 px-6 py-3 rounded-lg mb-10 text-white font-semibold'>See All</button>
+                        </div>
+                    )
+                }
             </div>
         </>
     );
