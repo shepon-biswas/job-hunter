@@ -16,8 +16,17 @@ const AppliedJobs = () => {
     return (
         <>
             {/* Banner Section */}
-            <div className='bg-cyan-200 text-center py-24'>
-                <h1 className='font-bold text-2xl'>Applied Jobs</h1>
+            <div className="relative h-50 w-full">
+                <img
+                    src="https://raw.githubusercontent.com/ProgrammingHero1/career-hub/main/assets/All%20Images/Vector.png"
+                    alt=""
+                />
+                <img
+                    className="absolute right-0 top-0"
+                    src="https://raw.githubusercontent.com/ProgrammingHero1/career-hub/main/assets/All%20Images/Vector-1.png"
+                    alt=""
+                />
+                <h1 className="absolute inset-0 flex justify-center items-center text-xl font-bold">Applied Jobs</h1>
             </div>
             {/* Filter Section */}
             <div className='w-11/12 md:w-8/12 mx-auto '>

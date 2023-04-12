@@ -4,9 +4,19 @@ const Blog = () => {
     return (
         <>
             {/* Banner Section */}
-            <div className='bg-cyan-200 text-center py-24'>
-                <h1 className='font-bold text-2xl'>Blog</h1>
+            <div className="relative h-50 w-full">
+                <img
+                    src="https://raw.githubusercontent.com/ProgrammingHero1/career-hub/main/assets/All%20Images/Vector.png"
+                    alt=""
+                />
+                <img
+                    className="absolute right-0 top-0"
+                    src="https://raw.githubusercontent.com/ProgrammingHero1/career-hub/main/assets/All%20Images/Vector-1.png"
+                    alt=""
+                />
+                <h1 className="absolute inset-0 flex justify-center items-center text-xl font-bold">Blog</h1>
             </div>
+            {/* Question & Answer Section */}
             <div className='w-11/12 md:w-8/12 mx-auto my-20'>
                 <div className='mb-10'>
                     <h1 className='text-xl font-bold mb-8'>When should you use context API?</h1>
